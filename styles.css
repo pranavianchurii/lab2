@@ -1,0 +1,113 @@
+/* Reset default browser styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Menu styles */
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Main Page styles */
+section#home {
+  text-align: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+section#home img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+/* Resume styles */
+section#resume {
+  padding: 50px;
+  background-color: #fff;
+  color: #333;
+}
+
+section#resume .resume-item {
+  margin-bottom: 20px;
+}
+
+section#resume h3 {
+  color: #c0392b;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* Contact Me styles */
+section#contact {
+  padding: 50px;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+section#contact form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px; /* Limit the width of the form container */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Portfolio styles */
+section#portfolio {
+  padding: 50px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Additional Styles */
+h1 {
+  color: #333;
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  color: #c0392b;
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #c0392b;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
